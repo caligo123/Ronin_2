@@ -28,7 +28,7 @@ public class movec : MonoBehaviour, IPointerDownHandler,IPointerUpHandler,IDragH
     {
         anim = user.GetComponent<Animator>();
 
-        movespd = 0.01f;
+        movespd = 0.1f;
         radius = rect_p.rect.width * 0.5f;
     }
 
@@ -91,7 +91,7 @@ public class movec : MonoBehaviour, IPointerDownHandler,IPointerUpHandler,IDragH
     {
         is_touch = false; 
         rect_c.localPosition = Vector3.zero;
-        
+        move_position = Vector3.zero;
     }
 
 

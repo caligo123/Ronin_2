@@ -56,13 +56,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\code\UI\atk.cs" />
+    <Compile Include="Assets\code\UI\stickv.cs" />
     <Compile Include="Assets\code\UI\movec.cs" />
     <Compile Include="Assets\code\user\New Folder\input2.cs" />
+    <Compile Include="Assets\code\user\usermove.cs" />
+    <Compile Include="Assets\code\NewBehaviourScript.cs" />
     <Compile Include="Assets\code\user\New Folder\user2.cs" />
     <Compile Include="Assets\code\user\sword.cs" />
     <Compile Include="Assets\code\user\user.cs" />
     <Compile Include="Assets\code\atkback.cs" />
-    <Compile Include="Assets\code\NewBehaviourScript.cs" />
+    <Compile Include="Assets\code\UI\atkc.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
